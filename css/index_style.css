@@ -1,0 +1,16 @@
+@media(min-width: 768px){
+
+    .custom-news-input {
+        width: 50%;
+    }
+}
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+    /* It will act like a ghost element of 60px which pushes it back down.
+    
+    Otherwise navbar will hide some part of ohter parts of webpage*/
+}
+
+
